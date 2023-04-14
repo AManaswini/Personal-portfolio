@@ -1,0 +1,21 @@
+.certifications{
+    padding:0rem 3rem 0rem 3rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+}
+
+.c-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media screen  and (max-width: 480px){
+    .certifications{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}
